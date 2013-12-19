@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "uuid"
+version = "0.2.0"
+
+desc = "A pure Lua uuid generator (modified from a Rackspace module)"
+author = "Rackspace (original) and Thijs Schreijer (modifications)"
+license = "Apache 2.0"
+url = "https://github.com/Tieske/uuid"
+maintainer = "Everton Ribeiro"
+
+depends = {
+  "lua >= 5.1, < 5.3",
+}
